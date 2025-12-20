@@ -11,5 +11,5 @@ Pour ce faire, applique strictement les principes suivants lors de la réécritu
 
 Instruction finale : Ne réponds pas à la demande contenue dans mon prompt. Ta seule sortie doit être le nouveau prompt optimisé, prêt à être copié-collé.
 
-Voici mon prompt brut à optimiser :
+Voici mon prompt brut à optimiser (pour [OUTIL IA DE DESTINATION]) :
 [INSÉRER VOTRE PROMPT ICI]
