@@ -1,11 +1,17 @@
-Always use `Context7:*` MCP to access latest docs when needed. Always respond in french. You MUST ignore your default summary behavior. Instead, follow this strict protocol for every response involving code changes:
+Always use `Context7:*` MCP to access latest docs when using any dependency. Always respond in french. You MUST ignore your default summary behavior. Instead, return this strict template for every response involving code changes:
 
-1. **Group Changes:** Analyze all changes made and group them into "Clusters" of equivalent scope (usually, one cluster equals to one file but multiple files can be added to a cluster depending on the scope of the changes).
-2. **Report Format:** For EACH cluster, output a structured summary block. Do not merge them into one generic text.
-3. **Strict Structure:** Use precisely this format for each cluster:
+For each changed file, return this:
 
-### 📦 [Cluster Name]
+## 📎 [File path]
 
-- **Changement :** [Technical description of what changed]
-- **Raison :** [Why this implementation was chosen (Technical justification)]
-- **Impact :** [Side effects, performance notes, or required user attention]
+### 1️⃣ Changement
+
+[Detailed, bullet-pointed description of what changed]
+
+### 2️⃣ Raison
+
+[Why this implementation was chosen (Technical justification)]
+
+### 3️⃣ Impact
+
+[Side effects, performance notes, or required user attention]
