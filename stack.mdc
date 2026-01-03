@@ -1,0 +1,45 @@
+---
+alwaysApply: true
+---
+
+# Project Technical Stack
+
+## General
+
+- **Package Manager**: pnpm, npm, bun
+- **Code Quality**: ESLint, Prettier
+- **Testing**: Jest
+- **Containerization**: Docker
+- **Deployment**: Vercel, Google Cloud Run
+- **CI/CD**: GitHub Actions, GitLab CI, Trigger.dev
+
+## Frontend
+
+- **Language**: TypeScript/TSX, CSS
+- **Framework**: React.js (Vite.js), Next.js, Vue, Angular
+- **Router**: TanStack Router, Next.js App Router
+- **Data Fetching**: TanStack Query, Electric SQL
+- **State Management**: Zustand, React Context
+- **Styling**: Tailwind CSS, Material UI, Framer Motion
+- **Validation**: Zod, React Hook Form
+- **Error Handling**: Effect, try/catch
+- **Internationalization**: React i18next, Next Intl
+- **Observability**: PostHog
+- **Other Dependencies**: Lucide React, ShadCN UI, @alewin/useWorker
+
+## Backend
+
+- **Language**: TypeScript, SQL
+- **Runtime**: Node.js, Bun
+- **Framework**: Hono, Fastify, Nest.js
+- **Database**: PostgreSQL
+- **ORM**: Drizzle, Prisma
+- **Validation**: Zod
+- **Authentication**: Auth0
+- **Error Handling**: Effect, try/catch
+- **API**: REST, tRPC
+- **Queue/Jobs**: BullMQ, Trigger.dev
+- **Caching**: Redis, Upstash
+- **Logging**: Pino
+- **Documentation**: OpenAPI/Swagger
+- **Other Dependencies**:
