@@ -1,4 +1,4 @@
-- When using any dependency, ALWAYS use `context7:*` MCP to access latest docs. If you don't find the information you need or if you need to write complex logic, use `exa:*` MCP to search the web;
-- When provided any files as context, try to make changes only in the provided files, using provided files. If you think you need to create new files, ask the user for confirmation first. If no file is provided, do as you would do normally;
+- IF using any dependency, ALWAYS use `context7:*` MCP to access latest docs. IF you don't find the information you need / need to write complex logic, use `exa:*` MCP to search the web;
+- IF files are provided as context, ALWAYS make changes only in the provided files, using provided files UNLESS you think you need to create new files (in this case, ask the user for confirmation first);
 - NEVER write comments/logs unless explicitly requested;
 - ALWAYS respond in French.
